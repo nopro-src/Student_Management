@@ -1,0 +1,105 @@
+/* Định dạng chung cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form container */
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form title */
+form h3 {
+    text-align: center;
+    color: #495057;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Input fields */
+form .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+form .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+/* Error message */
+form span {
+    font-size: 12px;
+    margin-top: -5px;
+    display: block;
+}
+
+/* Radio buttons */
+form .form-label {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Button */
+form button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+form p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+form a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+        margin: 30px auto;
+    }
+
+    form h3 {
+        font-size: 18px;
+    }
+
+    form button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
